@@ -1,0 +1,75 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Simple Storage Sync</title>
+		<style>
+			* {
+				transition: all 0.5s;
+			}
+			html {
+				--primary-color: rgb(34,36,54);
+				--secondary-color: rgb(127,133,163);
+				--accent-color: rgb(192,153,255);
+			}
+			body {
+				margin: 0px;
+				width: 400px;
+				padding: 10px;
+				text-align: center;
+				background: var(--primary-color);
+				color: var(--secondary-color);
+			}
+			h1:hover {
+				color: var(--accent-color);
+			}
+			ul {
+				padding: 0px;
+			}
+			li {
+				list-style: none;
+			}
+			li:hover {
+				color: var(--accent-color);
+			}
+			input, textarea, button {
+				border: 0px;
+				border-radius: 4px;
+				background: var(--secondary-color);
+				color: var(--primary-color);
+			}
+			button:hover {
+				background: var(--accent-color);
+			}
+			table {
+				width: 95%;
+				table-layout: fixed;
+				margin: 10px auto;
+				border: 1px solid var(--secondary-color);
+				border-radius: 4px;	
+				
+			}
+			table:hover {
+				border: 1px solid var(--accent-color);
+			}
+			table:hover td, table:hover th {
+				color: var(--accent-color);
+			}
+			td {
+				overflow-x: hidden;
+				white-space: nowrap;
+				text-align: center;
+			}
+		</style>
+    </head>
+    <body>
+        <img id="logo"src="/icons/logo48.png" alt="Simple Storage Sync Logo" />
+		<h1>Simple Storage Sync</h1>
+		
+		<div id="UIContainer">
+		</div>
+		
+		
+        
+		<script src="main.js"></script>
+    </body>
+</html>
